@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+    datasource:
+        name: mapperdemo
+        url: jdbc:mysql://127.0.0.1:3306/huipu
+        username: root
+        password: root
+mybatis:
+  type-aliases-package: com.example.demo.pojo
+
+
+
